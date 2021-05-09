@@ -39,9 +39,21 @@ html {
 .photo img {
   border-radius: 50%;
   border: 5px solid rgb(34, 74, 148);
-  width: 27rem;
-  height: 12rem;
   margin-top: -10rem;
+}
+
+@media (min-width: 550px) {
+  .photo img {
+    width: 27rem;
+    height: 12rem;
+  }
+}
+
+@media (max-width: 549px) {
+  .photo img {
+    width: 20rem;
+    height: 9rem;
+  }
 }
 
 h1 {
