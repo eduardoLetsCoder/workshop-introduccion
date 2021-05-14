@@ -90,6 +90,7 @@ footer {
   .photo img {
     width: 12rem;
     height: 12rem;
+    margin-top: -6rem;
   }
 
   a img {
